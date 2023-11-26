@@ -4,5 +4,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('card/shuffle', views.shuffleCards),
+    path('/shuffle', views.shuffleCards),
 ]
